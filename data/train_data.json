@@ -1,0 +1,1865 @@
+{
+    "classe": [
+        "FOOD",
+        "FOOD SHOP",
+        "CITY",
+        "ROADS",
+        "CLOTH SHOP",
+        "AREA",
+        "LANDMARK"
+    ],
+    "annotations": [
+        [
+            "there are small lanes, squares, shops on the roads, palaces and gatherings, this is the heart of rajasthanis, it is an officer city, it is a beautiful city, many days are spent here, this is jaipur\r",
+            {
+                "entities": [
+                    [
+                        191,
+                        197,
+                        "CITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "[music] jaipur is one of the largest cities of rajasthan, which is famous for its forces, palaces and museums, i do n't want to do something different by doing everything normal, so in this video, we will show you some off things that you can do in jaipur\r",
+            {
+                "entities": [
+                    [
+                        8,
+                        14,
+                        "CITY"
+                    ],
+                    [
+                        249,
+                        255,
+                        "CITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "[music] in this video, we will show you the detailed morning and night of jaipur side and amer side, so that you don't face any problem while roaming around [music] good morning, yes, we are going to see the sunrise ahead, which is an off experience, if you see this from where, from the jal mahal, then it has not yet come to the saints, but very beautiful colours have come, for now, i had the advantage that it is exactly opposite to our hotel, this is the general time, so it is 6:45 and these colours are visible, let's go now and show you the sunrise [music] sita is looking beautiful, we thought it was stunning san would not be visible and we went there.\r",
+            {
+                "entities": [
+                    [
+                        74,
+                        80,
+                        "CITY"
+                    ],
+                    [
+                        90,
+                        94,
+                        "LANDMARK"
+                    ],
+                    [
+                        288,
+                        297,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "then he is showing us from his room to see this place [music]\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "[music] 6 minutes now we have come to shri jagat shiromani temple which is situated in amer and it is dedicated to three hindu deities which are meerabai and krishna ji and krishna ji this temple remains open from sunrise till sunset if you want to do videography here with proper setup 25\r",
+            {
+                "entities": [
+                    [
+                        38,
+                        65,
+                        "LANDMARK"
+                    ],
+                    [
+                        87,
+                        91,
+                        "AREA"
+                    ]
+                ]
+            }
+        ],
+        [
+            "[music] in memory whose name was jagat singh\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "[music] because this is a destination place so there is very less crowd here because very few people know about it so you can admire its beauty to your heart's content and you can also click a lot of pictures here because there will be no crowd behind [music]\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "[music] the temple has a lot of significance in the local history of amer it is said that the statue of krishna ji which is inside this temple was worshipped by meerabai in the state of mewar [music] so this temple is ahead of amer fort and much further ahead in the streets people had taken a rickshaw which is like an unhealthy choice because if you take uber or some other people, they will show you the intercity charges because we are in jaipur and this is in amer, so they show very high charges and we had taken this rickshaw from jal mahal and there are a lot of people standing there, so it will take you 15-20 minutes to reach here [music] there are a total of 2012 step wells in india, out of which 100 are in rajasthan and now we have come to panna minakund which is in amer, this step well is the most restored and operational in rajasthan and it has water all year round, there used to be water supply for the locals nearby, so in the months when there was less rainfall, the locals used to take water from it and see what a beautiful cemetery it is, it has 13 storeys of steps in which there are 3500 steps, so the form of the mazes and its depth is more than 100 feet, in fact it is a well in the world of 40 minutes you can also take a guide tour, the price of which is quite reasonable [sangeet] so you can also go here and take photos in rajasthani outfits, it is 5 minutes away, so you can combine both of them and see them together\r",
+            {
+                "entities": [
+                    [
+                        69,
+                        73,
+                        "AREA"
+                    ],
+                    [
+                        227,
+                        236,
+                        "LANDMARK"
+                    ],
+                    [
+                        465,
+                        469,
+                        "AREA"
+                    ],
+                    [
+                        538,
+                        547,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "[sangeet] hey bhaiya, i just took you to show the pond and the temple in the entire palace, and these sit right next to the jal mahal, i will write priyanka's number in the description box, thank you bhaiya\r",
+            {
+                "entities": [
+                    [
+                        124,
+                        133,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "[sangeet] you can also see the palace and the water is very beautiful and there are a lot of shops around here, in fact you can also get your photos clicked here wearing rajasthani costumes, no bhaiya, if you don't want to ride the camera, it means you don't need such photos, we will take them on the phone, just the clothes, rehan, you are confused, which phone will come [sangeet] [sangeet] we will make some videos [sangeet] [sangeet] [sangeet] it is 10 minutes away [sangeet] [sangeet] [sangeet] the rajput dynasty kachwaha used to rule over the kshatriyas of gayatri here, this is a royal cremation ground in which their all the kings and maharajas were cremated except maharaja sawai singh who was cremated in the grounds of jaipur city palace.\r",
+            {
+                "entities": [
+                    [
+                        732,
+                        750,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "there are hardly any tourists here and even if there are, they are mostly foreigners.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "the beautiful marble work adds to the beauty of this place and it is so peaceful here that you can sit and meditate here.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "[music] there is no signboard here, so if you want to get more information about the place, you can also take a guide.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "[music] now we are going to the sun temple which you will see at the top.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "there is a little climb here.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "on one side we have come by auto and the rest we have to walk.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "so there are two ways to go.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "so in this you can go to the sun temple directly or by taking toll or by taking tax.\r",
+            {
+                "entities": [
+                    [
+                        29,
+                        39,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "master, from here, see the view of the sun temple for rs.\r",
+            {
+                "entities": [
+                    [
+                        39,
+                        49,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "2.50.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "what a nice view of the whole of jaipur is visible from here.\r",
+            {
+                "entities": [
+                    [
+                        33,
+                        39,
+                        "CITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "it is also called sunset point.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "from here, you can see the whole city.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "walk a little towards the sun temple.\r",
+            {
+                "entities": [
+                    [
+                        26,
+                        36,
+                        "CITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "when you are coming up this climb, be careful of the monkeys.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "there is also a temple of hanuman ji there.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "there are a lot of monkeys, the climb is not much, it is a 10-minute climb\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "[prasha] [music] [prasha] this place is full of monkeys, you will see all the families who keep on eating all the time, but still be alert, be careful, take care of your things, especially your mobile, if you do not let it bother you, this temple is very beautiful and betting in the water here is considered to be a species, especially on mahashivratri when a lot of people come here galta kund is the deepest pool on these important festivals you will find lots of people here jumping into the pool to take a bath\r",
+            {
+                "entities": [
+                    [
+                        385,
+                        395,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "[music] aarti is being performed here when you come forward, there is a temple of shri gyan gopal ji right there within the same compound and there is an exit from here where you can take an auto till here if you don't want to climb up we have put it in front of the suraj temple\r",
+            {
+                "entities": [
+                    [
+                        267,
+                        279,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "[music] so you can book from them here whenever you come to jaipur, we will also take you to gaya and show you the america thank you bhaiya\r",
+            {
+                "entities": [
+                    [
+                        60,
+                        66,
+                        "CITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "[music] [praise] [music] nahargarh, 10 kilometers away from aamir food is very spectacular [music] because the sunset looks very beautiful from here [music]\r",
+            {
+                "entities": [
+                    [
+                        25,
+                        34,
+                        "CITY"
+                    ],
+                    [
+                        60,
+                        70,
+                        "FOOD SHOP"
+                    ]
+                ]
+            }
+        ],
+        [
+            "if you come by uber then they will charge more here.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "you can take your own car to come inside, you can park it but you can also take a round trip because it is difficult to get anything from here.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "[music] excuse me [music] you can do [music] the light and sound was very amazing, i mean, their voices are so amazing that you will get goosebumps.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "seriously, amitabh bachchan is the narrator in it, but we felt that by playing a prank, the person who gave the voice of prabhas in bahubali, he has also done very significant roles.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "the dhruv is out and we would suggest that if you ever want to go inside aamir fort, then before that you should watch the light and sound show, you will enjoy it more and it is a must do it.\r",
+            {
+                "entities": [
+                    [
+                        73,
+                        83,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "[music] right now it is 7:20 in the morning and we have come to smriti van which opens at 6:00 in the morning and it is getting very cold right now.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "smoke is coming out of the mouth as well and this is smriti van, as the name suggests, it is a memorial park and basically this park has been built in the memory of our soldiers who died in kargil.\r",
+            {
+                "entities": [
+                    [
+                        53,
+                        63,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "so let's go and see it.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "here, two wheeler and car parking are both provided.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "you cannot park in some spaces.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "the good thing is that boards are put up everywhere so that there is no regret.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "as this is a very big place, maps are also made here, so you can go after seeing them.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "it is absolutely natural here, it is so beautiful and empty right now.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "and as you can hear the sound of birds, you will see birds, three-four peacocks are sitting on the tree, they are enjoying the sunrise from there.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "along with this, information about some plants is also written here.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "i have said that there can be three balls here, so you have to walk according to the way you know, otherwise any animal can also attack you.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "in any situation, if you see a leopard, then you have to remember that you cannot run faster than your companions.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "[music] [praise] [music]\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "[praise] [music] it feels very good, just tell me your name, whatever you feel here, this nature is so beautiful, you can say anything, i have felt so good after coming to pune, maharashtra, i get a feeling of natural forest in it and i am feeling very good, so we felt very good, this morning start means our day has started so well [music] an environment [music] it will be good, when we go, maybe then we will know\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "[music] so now we are in hawa mahal\r",
+            {
+                "entities": [
+                    [
+                        25,
+                        35,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "and here you are very surprised, hawa mahal festival show is happening, lightings are happening on top of hawa mahal, they are playing it with different music and fireworks are also happening, it is a big festival and the whole road is closed, so we will show you some glimpses and along with that a lot of musicians have come, so maybe mostly it seems to be a festival of musicians, but this festival happens on sankranti and this is the true celebration of culture, here you will see street food performance puppet and dance shows and more go on all night long [music]\r",
+            {
+                "entities": [
+                    [
+                        33,
+                        43,
+                        "LANDMARK"
+                    ],
+                    [
+                        106,
+                        116,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "[applause]\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "[music] leave a comment if you like this video please like, share, comment\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "[music] [music] so, first of all we have brought you to the destination for a nice early morning breakfast, very delicious sindhi dal pakwan is available at the breakfast centre here, so let's taste it and introduce you to them.\r",
+            {
+                "entities": [
+                    [
+                        123,
+                        140,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "hello, hello bhaiya what is your name sir, my name is vijay and since when have you been serving this bhaag, my father started it, it is going to be completely homely tasted, yes, of course, if someone asks us, no friend we don't want to eat outside, but we say no, this is our home made by our hands, so in a way it is home made food, okay, okay, and all our things are absolutely fresh, it has been almost 25 years, what is your timing, sir, it is from 8 am to 11 am, what things are you making, sir, we have dal pakwan which is the best among our sindhis, you must have heard that sindhis like dal pakwan very much, absolutely, and our kudi chola, chola bhatura, rice, okay, you are making these three-four things early in the morning and what is the pricing, sir, our everyone has a plate of 40\r",
+            {
+                "entities": [
+                    [
+                        511,
+                        521,
+                        "FOOD"
+                    ],
+                    [
+                        597,
+                        607,
+                        "FOOD"
+                    ],
+                    [
+                        639,
+                        649,
+                        "FOOD"
+                    ],
+                    [
+                        651,
+                        664,
+                        "FOOD"
+                    ],
+                    [
+                        666,
+                        670,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "oh this thing, these are the dishes, ours is matthi type, it is clay type, this is called a pakwan, it is made of flour, okay, we put dal on it, what kind of dal is it, it should be pure moong dal, okay and to make it a little spicy, we also add chickpeas to it, okay usually dal is acceptable but we have chole with a little tadka and on top of this we put onions,\r",
+            {
+                "entities": [
+                    [
+                        187,
+                        196,
+                        "FOOD"
+                    ],
+                    [
+                        246,
+                        255,
+                        "FOOD"
+                    ],
+                    [
+                        276,
+                        279,
+                        "FOOD"
+                    ],
+                    [
+                        306,
+                        311,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "okay this is tamarind chutney which will enhance its taste, it will make it a little sweet and sour and what is this, these are chilli tipres, sir, okay chilli tipres, tapori, wow, i mean this is famous in rajasthan, isn't it, yes, yes, it is ready, yes, it is ready, wow brother, wow, i did not find such dal pakwan in jaipur, there is a small shop anywhere\r",
+            {
+                "entities": [
+                    [
+                        13,
+                        29,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "but it tastes very good, dal pakwan in it is eaten the most by sindhis, so this is the first experience for me, i will keep some dal and tapres of chilli, basically this is my attempt.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "let me show you the same thing which i have already tried, i had already tried it brother, if we talk about the taste, it tastes amazing because the dal is very bold, the chole is mildly spicy and it gives that crunchy touch with the chillies, so it is a great combination, you must have seen these tikkas, so we are roaming in jaipur, we have brought you to a nice place in jaipur, i have brought you to raja park, near radheshyam ji, radheshyam ji's paneer tikka is very famous, namaskar ji, namaskar ji, what is your name sir, my gulshan bhatia sir, our father had started paneer in jaipur, so\r",
+            {
+                "entities": [
+                    [
+                        405,
+                        414,
+                        "AREA"
+                    ],
+                    [
+                        436,
+                        464,
+                        "FOOD SHOP"
+                    ],
+                    [
+                        586,
+                        592,
+                        "CITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "yes, yes, our father and grandfather started it together in jaipur, basically paneer, starting with simple paneer, sill paneer, raw paneer, they had made such a good name that we kept on maintaining it, but it seemed that they were not able to increase their name, when we already had pure paneer and everything was your blessings, so paneer the tikka started at just 20 rupees, malai paneer tikka in live grill, this was about 17-18 years ago, okay, and it kept on happening in a few years or two, with the inflation and increasing the quantity, it has reached 120 today, its journey means 120 also i can see, is a very reasonable price in today's era of inflation, well if someone wants to come to eat, what is the proper address?\r",
+            {
+                "entities": [
+                    [
+                        60,
+                        66,
+                        "CITY"
+                    ],
+                    [
+                        78,
+                        84,
+                        "FOOD"
+                    ],
+                    [
+                        107,
+                        113,
+                        "FOOD"
+                    ],
+                    [
+                        120,
+                        126,
+                        "FOOD"
+                    ],
+                    [
+                        128,
+                        138,
+                        "FOOD"
+                    ],
+                    [
+                        335,
+                        351,
+                        "FOOD"
+                    ],
+                    [
+                        379,
+                        397,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "the proper address is shop no. 70, raja park, on the main square, this raja pak main chara charay, and what are the timings, your timings start from 10 am and go till 11 pm, mainly there is curd in it, well in the curd only, the rest of it, kasuri methi, red chilli, all this, some tomato gravy, etc., is all there, the curd is hung inside it for at least seven to eight hours, after that it is ready, you can see it is not tingling, it is basically that the curd is completely set, there is no use of butter, in some places, some say butter we have the option of butter for the patti so we should apply butter, extra butter is applied, there are many people who do n't take capsicum tomato in it, so i see they are leaving the plate empty, so for them there is only pattikka, in it two extra pieces of paneer come and the shimla tatters are removed, in a plate there is one skewer, one skewer, seven pieces cut into 14 pieces, well there are seven pieces in total\r",
+            {
+                "entities": [
+                    [
+                        35,
+                        44,
+                        "AREA"
+                    ],
+                    [
+                        71,
+                        79,
+                        "AREA"
+                    ]
+                ]
+            }
+        ],
+        [
+            "and i am seeing the pieces are of good size [music] there is no secret thing like that and a green chutney of mint, coriander spinach, coriander spinach and what is with it is garlic and curd, garlic and curd, this is our main thing, bha wow friend, it will be amazing, you will enjoy it brother, if you are coming to raja pag area, i mean it is a must recommend place, you must come and try their authentic paneer tikka, they have made a nice marinade by mixing all the spices etc., it is praiseworthy and we will go on our way next destination is to explore something new from jaipur and to share it with you [music]\r",
+            {
+                "entities": [
+                    [
+                        93,
+                        114,
+                        "FOOD"
+                    ],
+                    [
+                        318,
+                        326,
+                        "FOOD SHOP"
+                    ],
+                    [
+                        408,
+                        420,
+                        "FOOD"
+                    ],
+                    [
+                        579,
+                        585,
+                        "CITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "[music] we are standing at mahavir rabdi bhandar and we are from mishra raja's chowrasta, we have come here.\r",
+            {
+                "entities": [
+                    [
+                        27,
+                        48,
+                        "FOOD SHOP"
+                    ],
+                    [
+                        65,
+                        88,
+                        "FOOD SHOP"
+                    ]
+                ]
+            }
+        ],
+        [
+            "mahavir rabdi bhandar has two shops, one here and one in front, here you get very popular and amazing vegetable of potato, onion and paneer and along with it their rabri etc.\r",
+            {
+                "entities": [
+                    [
+                        0,
+                        21,
+                        "FOOD SHOP"
+                    ]
+                ]
+            }
+        ],
+        [
+            "let's enjoy, let's meet, hello uncle, hello uncle, what is your name, kumar jain and how many years have you been here, rabri etc.\r",
+            {
+                "entities": [
+                    [
+                        120,
+                        125,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "and all these famous things of yours, it has been about 120 years, this shop is being run by the fourth generation for 120 years, ok, initially it was started as only a milk shop, rabri is black, potato-onion curry, gram flour gut, ok, that means you are serving the typical rajasthani dish, rajasthani [music] go [music] we have come, their taste is great, this is potato-onion-paneer curry, this is a piece of paneer, a big potato, fried along with it, onion, this this is the tapre which is very famous in rajasthan, the chilli tapre and this is their garlic chutney which is another dish of rajasthan which is very popular and people are very crazy about it, check the size of the bejar roti [music] we have also been to jaipur to drink gulab ji 's tea, this tea is very popular here and let us enjoy the nice tea here and let us show you why this tea is famous, check this out people are enjoying nice tea here and you can see the rush, tea has to be drunk here only and food has to be taken at sharma pavitra bhojanalaya, sodalala, the best food is available, delicious food is available at sharma pavitra bhojanalaya, sodalala, you come, very good food in every way, we have been here for 1215 years, when we were in front, when gulab ji himself was there, we used to drink tea there too, i started from there till today, i have been drinking it here till today, i mean there is no such day when we do this, well of course, our meeting takes place here, hello, what is your name sir, my name is this is shivpal singh and how many years have passed since uncle gulab ji's tea is here since a year before independence 1946 to 1949\r",
+            {
+                "entities": [
+                    [
+                        180,
+                        185,
+                        "FOOD"
+                    ],
+                    [
+                        196,
+                        214,
+                        "FOOD"
+                    ],
+                    [
+                        366,
+                        391,
+                        "FOOD"
+                    ],
+                    [
+                        555,
+                        569,
+                        "FOOD"
+                    ],
+                    [
+                        685,
+                        695,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "ok this was started by my father your father's father ok his name was gulab ji his name was gulab ji ok and what is the proper address it is ae road it is ganpati plaza me\r",
+            {
+                "entities": [
+                    [
+                        70,
+                        78,
+                        "FOOD SHOP"
+                    ],
+                    [
+                        92,
+                        100,
+                        "FOOD SHOP"
+                    ],
+                    [
+                        155,
+                        168,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "road ganpati plaza ganpati plaza na ganpati plaza and what is the timing of your tea it is from 4 in the morning to 10 in the night people drink tea from 4 in the morning to 10 in the night people sit day and night ok only means there is a gap of six hours if there is no gap then there is no rest there is no rest keep going ok there is ginger for [music] how many cups is there ginger for 50 cups 50 cups full of ginger [music] means [music]\r",
+            {
+                "entities": [
+                    [
+                        5,
+                        18,
+                        "LANDMARK"
+                    ],
+                    [
+                        19,
+                        32,
+                        "LANDMARK"
+                    ],
+                    [
+                        36,
+                        49,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "[music] oh ji our tea is also nice along with it our brothers are also enjoying and this is their ban have the maska, you too have it friend, try this too, there is butter and jam in it, you must know your bun maska is a simple recipe, no zyara, i didn't feel it to be complicated, something extraordinary, you are making it in a simple way brother, the tea is very strong, amazing tea, if you are coming to jaipur, then your visit is a must and it will be worth it according to me, and along with this, enjoy their bun maska, there are a lot of things, you can enjoy all these things here [music] we have come in search of jaipur's food, today we have brought you to shankar samosa wala, namaskar ji, namaskar, what is your name sir, deepak arora, and since when have you been serving this, it's been a year, well, a whole fair has been organized at this place, what is something special that you are making, the spices are very old, well, the quality of the spices is still the same as it was earlier, from the beginning, yes, ok, so who started it, grandfather started it, well, it started from grandfather and you have been maintaining it further, right, well, apart from this, samosa shankar samosa has become the name of your shop, apart from samosa, what else do you make?\r",
+            {
+                "entities": [
+                    [
+                        18,
+                        21,
+                        "FOOD"
+                    ],
+                    [
+                        668,
+                        687,
+                        "FOOD SHOP"
+                    ]
+                ]
+            }
+        ],
+        [
+            "after samosa, there is dal kachori, onion kachori, ok, mirchi, bread, ok, what is the address, if anyone wants to come and eat here, this is gurunanpura, street number one, raja park, gurunanak pumba, one, raja park, ok, and what are the timings, what time do you start in the morning, from 7:30 in the morning to 8:00 in the night, from 7:30 to 8:00, ok, and this is their kadhi, how do you like it, it is very good, it tastes absolutely amazing, since when have you been eating ours, i have been eating it since five, since 2005, you mash it and crush it completely and then apply it, ok, i took a samosa to taste, let's taste the samosa without chutney, so that we can find out its originality, it has a nice filling of potato [music] inside it, today we will feed you that cheela which people talk about all over the country, going from hong kong, bakk, berlin, tokyo, paris, waping city, ok, pandit ji, first of all, namaskar, pandit ji's name tell me about yourself my name is pandit ramji lal tiwari sir, ok and by the way how many years have you been making this here, malik sahab, how much are you growing yes\r",
+            {
+                "entities": [
+                    [
+                        6,
+                        12,
+                        "FOOD"
+                    ],
+                    [
+                        23,
+                        34,
+                        "FOOD"
+                    ],
+                    [
+                        36,
+                        49,
+                        "FOOD"
+                    ],
+                    [
+                        141,
+                        152,
+                        "FOOD SHOP"
+                    ],
+                    [
+                        173,
+                        182,
+                        "AREA"
+                    ],
+                    [
+                        206,
+                        215,
+                        "AREA"
+                    ],
+                    [
+                        633,
+                        639,
+                        "AREA"
+                    ]
+                ]
+            }
+        ],
+        [
+            "i am in calcutta from 22nd april 1980 to 90 sir, ok ok first you were in calcutta\r",
+            {
+                "entities": [
+                    [
+                        73,
+                        81,
+                        "CITY"
+                    ]
+                ]
+            }
+        ],
+        null,
+        [
+            "ok so i am in jaipur since 90, ok you are in jaipur since 90, yes i am a regular [music]\r",
+            {
+                "entities": [
+                    [
+                        14,
+                        20,
+                        "CITY"
+                    ],
+                    [
+                        45,
+                        51,
+                        "CITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "[music] it is a classic item, ultimate if you are coming to jaipur, it is a must try, it is right in front of the high court, pandit ji's stall by the name of calcutta chaat bhandar, i will say once again, turn it around and show it to you, ok\r",
+            {
+                "entities": [
+                    [
+                        60,
+                        66,
+                        "CITY"
+                    ],
+                    [
+                        159,
+                        181,
+                        "FOOD SHOP"
+                    ]
+                ]
+            }
+        ],
+        [
+            "[music] [ music] with this in search of the evening taste we have reached raman dosa and you get very good and amazing dosa here, so let's taste the amazing taste here [music] while roaming in the park area in the evening we met an uncle at pranami chowk from whom we got to eat khichha chaat, so let's meet him as well and taste it here ki kheer chaat check out his cycle friend how cute the cycle looks it is decorated and this is the uncle here in full traditional rajasthani dress namaste uncle ji namaste saab how are you sir nice\r",
+            {
+                "entities": [
+                    [
+                        74,
+                        84,
+                        "FOOD SHOP"
+                    ],
+                    [
+                        279,
+                        292,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+            "[music] you brother from jaipur reach in the evening to eat their tikki at rahul chaat bhandar so come let us also reach to taste their tikki\r",
+            {
+                "entities": [
+                    [
+                        25,
+                        31,
+                        "CITY"
+                    ],
+                    [
+                        66,
+                        71,
+                        "FOOD"
+                    ],
+                    [
+                        75,
+                        94,
+                        "FOOD SHOP"
+                    ]
+                ]
+            }
+        ],
+        [
+            "the chole tastes very good there is no frills at all, there are no spices, not too spicy, not too floury, it is perfectly balanced, it has a delicious taste, must recommended [music] while searching for good food we have brought you to pali vegetarian dhaba and let's introduce you to the inside taste, let's introduce you to the owner here, let's get to know about their story and taste the wonderful taste here, sat shri akal ma'am, yes, sat shri akal ji ma'am, i have heard a great name of your pali dhaba, it's just toha sharda pyar, all the blessings, ma'am, how many years have you been running it, pali ji is my father's name and it has a 40 year old taste,\r",
+            {
+                "entities": [
+                    [
+                        498,
+                        508,
+                        "FOOD SHOP"
+                    ]
+                ]
+            }
+        ],
+        null,
+        null,
+        [
+            "[music] so let's taste their nice taste, it has come, their nice minced meat is inside liver chaap and soybean and this is their paneer tikka butter masala, this is paneer tikka masala and along with it there is sev tomato vegetable and this is their famous dal ghee wali\r",
+            {
+                "entities": [
+                    [
+                        129,
+                        155,
+                        "FOOD"
+                    ],
+                    [
+                        258,
+                        271,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "jaipur is a beautiful city however, more than it's beauty, it's known for its food in today's video, i'll introduce you to some of the best foods from jaipur one of the best things is that the street food here is primarily vegetarian.\r",
+            {
+                "entities": [
+                    [
+                        0,
+                        6,
+                        "CITY"
+                    ],
+                    [
+                        151,
+                        157,
+                        "CITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "so for mihir and me it's a perfect place to come and eat street food because we are both vegetarians.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "in fact he's jain so he doesn't even eat potato!\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "this is actually a curated experience by airbnb i'm trying out an airbnb experience for the first time, let's see how this goes!\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "our food walk started form the iconic raj mandir theatre\r",
+            {
+                "entities": [
+                    [
+                        38,
+                        56,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "so this is jaipur's famous  pyaaz (onion) kachori mihir is already eating it and i'm going to try it now it's really crispy\r",
+            {
+                "entities": [
+                    [
+                        28,
+                        49,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "and i love the chatni i really love the sweet chatni so will add that as well we eating the kachori at narsingh on the mirza ismail road or mi road so our next destination is ram namkeen bhandar and we'll try a unique specialty from jaipur here this is mirchi vada and what's different about it is that it's eaten with kadhi it was started in 1970\r",
+            {
+                "entities": [
+                    [
+                        15,
+                        21,
+                        "FOOD"
+                    ],
+                    [
+                        40,
+                        52,
+                        "FOOD"
+                    ],
+                    [
+                        92,
+                        99,
+                        "FOOD"
+                    ],
+                    [
+                        103,
+                        111,
+                        "FOOD SHOP"
+                    ],
+                    [
+                        119,
+                        136,
+                        "ROADS"
+                    ],
+                    [
+                        140,
+                        147,
+                        "ROADS"
+                    ],
+                    [
+                        175,
+                        194,
+                        "FOOD SHOP"
+                    ],
+                    [
+                        253,
+                        264,
+                        "FOOD SHOP"
+                    ],
+                    [
+                        319,
+                        324,
+                        "FOOD SHOP"
+                    ]
+                ]
+            }
+        ],
+        [
+            "so it's quite an old place because of the addition of kadhi, the taste is a bit tangy which is what i think is very different and unique about it very nice mirchi vada\r",
+            {
+                "entities": [
+                    [
+                        54,
+                        59,
+                        "FOOD SHOP"
+                    ],
+                    [
+                        156,
+                        167,
+                        "FOOD SHOP"
+                    ]
+                ]
+            }
+        ],
+        [
+            "it's a lot of fun walking around on the streets as we can see jaipur nicely i hope we are eating something sweet as well\r",
+            {
+                "entities": [
+                    [
+                        62,
+                        68,
+                        "CITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "so next we are going to drink some lassi it'll cool us down in the heat here\r",
+            {
+                "entities": [
+                    [
+                        35,
+                        40,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "and we'll get something sweet also as promised, next we are doing lassi.\r",
+            {
+                "entities": [
+                    [
+                        66,
+                        71,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "but before that look at that light behind me.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "so gorgeous!\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "with this beautiful light we are going to the oldest lassi shop here called lassiwala.\r",
+            {
+                "entities": [
+                    [
+                        53,
+                        58,
+                        "FOOD"
+                    ],
+                    [
+                        76,
+                        85,
+                        "FOOD SHOP"
+                    ]
+                ]
+            }
+        ],
+        [
+            "it's here since 1944.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "hopefully it'll kind of soothe us and also cool us down!\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "time to try out the lassi now!\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "we are only drinking half glass as it looks quite heavy and big really reminds me of the kind of lassi we used to drink at home when we were kids another thing to keep in mind is that there are many shops with the same name so you have to look out for the shop that says 'since 1944' that is the oldest one and the original source\r",
+            {
+                "entities": [
+                    [
+                        271,
+                        282,
+                        "FOOD SHOP"
+                    ]
+                ]
+            }
+        ],
+        [
+            "yeah!\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "that's my pro tip for today!\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "now in case you are wondering why this road is called mirza ismail road he was actually the architect for this whole neighbourhood\r",
+            {
+                "entities": [
+                    [
+                        54,
+                        71,
+                        "ROADS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "and that's why this is called mirza ismail road the architect of jaipur was another man bhattacharya, but this area is famous for mirza ismail\r",
+            {
+                "entities": [
+                    [
+                        30,
+                        47,
+                        "ROADS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "so what you see right behind me is called sanganeri gate because this road comes from sanganer which is where hand block-printing is done.\r",
+            {
+                "entities": [
+                    [
+                        42,
+                        56,
+                        "LANDMARK"
+                    ],
+                    [
+                        86,
+                        94,
+                        "AREA"
+                    ]
+                ]
+            }
+        ],
+        [
+            "of course, we aren't seeing all the gates today, but we are going to touch a little bit of old jaipur tonight\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "so i've just randomly walked into one of the saree shops here called 'shipra sarees' it's a beautiful, colourful shop \"which sarees is most famous here?\"\r",
+            {
+                "entities": [
+                    [
+                        69,
+                        83,
+                        "CLOTH SHOP"
+                    ]
+                ]
+            }
+        ],
+        [
+            "\"we have the traditional bandhej.\"\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "\"i know one saree called laharia saree - do you have that as well?\"\r",
+            {
+                "entities": [
+                    [
+                        25,
+                        38,
+                        "CLOTH SHOP"
+                    ]
+                ]
+            }
+        ],
+        [
+            "so for absolutely no good reason we came there to see sarees and now mihir and i are selecting shirts for us!\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "but this looks so nice!\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "i love it!\r",
+            {
+                "entities": []
+            }
+        ],
+        null,
+        [
+            "(rs 350/ shirt) for chai we've come again to an old historical, old-school jaipur shop it's called 'sahu restaurant' it was established in 1968 and has been here since then the chai here is delicious\r",
+            {
+                "entities": [
+                    [
+                        99,
+                        115,
+                        "FOOD SHOP"
+                    ]
+                ]
+            }
+        ],
+        [
+            "and we'll try that\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "next\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "i was just told that they have a masala with a secret recipe since 1968 even today chai is made with which gives it an old flavour and we get good chai which we can't get anywhere else please give one chai in a kulhad (earthen cup)\r",
+            {
+                "entities": [
+                    [
+                        33,
+                        39,
+                        "FOOD"
+                    ],
+                    [
+                        83,
+                        87,
+                        "FOOD"
+                    ],
+                    [
+                        147,
+                        151,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "my plan was to try only a little chai\r",
+            {
+                "entities": [
+                    [
+                        33,
+                        37,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "but i got the whole kulhad\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "but...chai is love!\r",
+            {
+                "entities": [
+                    [
+                        6,
+                        10,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "hmmm...\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "chai is so good!\r",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "next we are going to jaipur's famous 'namkeen gali' so jaipur is quite famous for it's wide variety of namkeen (kind of savoury snack) one of which is called 'sev' and we'll try that\r",
+            {
+                "entities": [
+                    [
+                        37,
+                        50,
+                        "ROADS"
+                    ],
+                    [
+                        103,
+                        110,
+                        "FOOD"
+                    ],
+                    [
+                        158,
+                        162,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "ow\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "we are in a shop called 'up namkeen' this is a 55 years old nameen shop but it's name is up\r",
+            {
+                "entities": [
+                    [
+                        24,
+                        35,
+                        "FOOD SHOP"
+                    ],
+                    [
+                        60,
+                        66,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "so it's from my part of the world as we walked around in the market, we heard garba (dance) music and we then spent some time enjoying that as well even before we start our dinner today, we've come to eat dessert we've come to gc dairy this is a dessert place where you get tasty indian desserts this is saffron-pistachio butter and we make it with hands we get pure white butter using the same recipe that's followed in villages and then we add saffron, pistachio, and cardamom so this is saffron-pistachio butter unfortunately, we couldn't go to samrat that evening and that's why we reached there the next morning good morning from jaipur!\r",
+            {
+                "entities": [
+                    [
+                        227,
+                        235,
+                        "FOOD SHOP"
+                    ],
+                    [
+                        246,
+                        259,
+                        "LANDMARK"
+                    ],
+                    [
+                        304,
+                        328,
+                        "FOOD"
+                    ],
+                    [
+                        367,
+                        379,
+                        "FOOD"
+                    ],
+                    [
+                        446,
+                        453,
+                        "FOOD"
+                    ],
+                    [
+                        455,
+                        464,
+                        "FOOD"
+                    ],
+                    [
+                        470,
+                        478,
+                        "FOOD"
+                    ],
+                    [
+                        490,
+                        514,
+                        "FOOD"
+                    ],
+                    [
+                        548,
+                        554,
+                        "FOOD SHOP"
+                    ]
+                ]
+            }
+        ],
+        [
+            "we are starting our day from an iconic food place here called 'samrat' and at 7am we'll have chai and breakfast of kachori and samosa if you go to jaipur, you absolutely have to visit lmb also both their sweets and food are quite tasty as per the menu card here it says - traditional halwai since 1727\r",
+            {
+                "entities": [
+                    [
+                        62,
+                        69,
+                        "FOOD SHOP"
+                    ],
+                    [
+                        93,
+                        97,
+                        "FOOD"
+                    ],
+                    [
+                        115,
+                        122,
+                        "FOOD"
+                    ],
+                    [
+                        127,
+                        133,
+                        "FOOD"
+                    ],
+                    [
+                        184,
+                        187,
+                        "FOOD SHOP"
+                    ]
+                ]
+            }
+        ],
+        [
+            "it was initially a sweets shop and the sweets here are very famous i've also come here twice before and ate only sweets\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "but i see this place as a proper restaurant so we'll eat food and also lots of sweets as both mihir and i love sweets so the plan is to gain 10 kgs and then burn is all by walking around i'm not sure if this is the right way of eating this\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "but i've seen people fill chutney inside the kachori you always get green chutney but not the sweet one good thing is that they have sweet chutney here today\r",
+            {
+                "entities": [
+                    [
+                        68,
+                        81,
+                        "FOOD"
+                    ],
+                    [
+                        133,
+                        146,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "chutney filled kachori so good!\r",
+            {
+                "entities": [
+                    [
+                        0,
+                        7,
+                        "FOOD"
+                    ],
+                    [
+                        15,
+                        22,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "this is pyaaz (onion) kachori and also has daal (lentils) in it and this is something everyone eats all the time for breakfast....\r",
+            {
+                "entities": [
+                    [
+                        8,
+                        29,
+                        "FOOD"
+                    ],
+                    [
+                        43,
+                        47,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "so...very jaipuri breakfast!\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "later my friend rj took me to another iconic chai place in jaipur my friend is very particular about chai and we rode half an hour to reach here we are driving chai at 'gulab ji chai wale' because chai here is great and my friend's favourite!\r",
+            {
+                "entities": [
+                    [
+                        45,
+                        49,
+                        "FOOD"
+                    ],
+                    [
+                        101,
+                        105,
+                        "FOOD"
+                    ],
+                    [
+                        168,
+                        187,
+                        "FOOD SHOP"
+                    ],
+                    [
+                        197,
+                        201,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "we earlier had chai at sahu but rj isn't a fan of that place so he got me here because this is better so let's next try gulab chai for dinner we've come to another rj recommended place we've come to mahavir rabdi bhandar not just rabdi, we'll get bejad ki roti, aalo-pyaaz-paneer subzi and garlic chutney, and buttermilk and later we can also eat their famous layer rabdi (indian dessert) there are many shops by the same name, and the original one is the last shop on the right in the lane we have anmol here and he's the owner of the shop my friend got name here to eat bejad ki roti\r",
+            {
+                "entities": [
+                    [
+                        23,
+                        27,
+                        "FOOD SHOP"
+                    ],
+                    [
+                        120,
+                        130,
+                        "FOOD SHOP"
+                    ],
+                    [
+                        199,
+                        220,
+                        "FOOD SHOP"
+                    ],
+                    [
+                        230,
+                        235,
+                        "FOOD"
+                    ],
+                    [
+                        247,
+                        260,
+                        "FOOD"
+                    ],
+                    [
+                        262,
+                        285,
+                        "FOOD"
+                    ],
+                    [
+                        290,
+                        304,
+                        "FOOD"
+                    ],
+                    [
+                        310,
+                        320,
+                        "FOOD"
+                    ],
+                    [
+                        366,
+                        371,
+                        "FOOD"
+                    ],
+                    [
+                        572,
+                        585,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "and i don't even know what that it\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "it's made with three grains\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "but i also don't know more sorghum, wheat and chickpea\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "so this is bejad ki roti and we are eating this with a spicy vegetable one is a gatta subzi and the other one is pyaar-paneer-aalo subzi  \r",
+            {
+                "entities": [
+                    [
+                        11,
+                        24,
+                        "FOOD"
+                    ],
+                    [
+                        80,
+                        91,
+                        "FOOD"
+                    ],
+                    [
+                        113,
+                        136,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "i love the roti\r",
+            {
+                "entities": [
+                    [
+                        11,
+                        15,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "but it's size is huge!\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "a family of four would eat it, and i'm eating it alone for dessert we've come to another famous shop called 'bhagat sweets shop' we came here to eat milk laddoos but they are finished already so will we eat nothing?\r",
+            {
+                "entities": [
+                    [
+                        108,
+                        127,
+                        "FOOD SHOP"
+                    ],
+                    [
+                        149,
+                        161,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "oh...they are saying hello to me!\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "so what should we eat if you don't have milk laddoos?\r",
+            {
+                "entities": [
+                    [
+                        40,
+                        52,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "the milk laddoos are famous here and i'm eating this for the first time \"would you recommend eating rasmalai here?\"\r",
+            {
+                "entities": [
+                    [
+                        4,
+                        16,
+                        "FOOD"
+                    ],
+                    [
+                        100,
+                        108,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "\"no. only try the milk laddoos!\"\r",
+            {
+                "entities": [
+                    [
+                        18,
+                        30,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "tomorrow morning we'll come again, pick the laddoos and try them!\r",
+            {
+                "entities": [
+                    [
+                        44,
+                        51,
+                        "FOOD"
+                    ]
+                ]
+            }
+        ],
+        [
+            "i hope you enjoyed today's food video!\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "if you loved it, do like it here on youtube as well and if possible, do subscribe to my channel as well see you in the next video soon.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "goodbye for now. ",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "goodbye for now. ",
+            {
+                "entities": []
+            }
+        ]
+    ]
+}
