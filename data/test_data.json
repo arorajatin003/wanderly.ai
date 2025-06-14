@@ -1,14 +1,907 @@
 {
     "classe": [
-        "FOOD",
-        "FOOD SHOP",
-        "CITY",
         "ROADS",
-        "CLOTH SHOP",
+        "FOOD SHOP",
+        "LANDMARK",
         "AREA",
-        "LANDMARK"
+        "CITY",
+        "CLOTH SHOP",
+        "FOOD"
     ],
     "annotations": [
+        [
+            "india's largest salt water lake, the third longest wall in the world, royal palaces, beautiful temples, from the beauty of hawa mahal to the peace of jal mahal, you will get to see everything here.\r",
+            {
+                "entities": [
+                    [
+                        16,
+                        31,
+                        "LANDMARK"
+                    ],
+                    [
+                        150,
+                        159,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "this is jaipur, the pink city, where every wall tells a story [music] jaipur is known for its huge artistic fords and here you get to see many beautiful fords, but this fort is very special.\r",
+            {
+                "entities": [
+                    [
+                        8,
+                        14,
+                        "CITY"
+                    ],
+                    [
+                        20,
+                        29,
+                        "CITY"
+                    ],
+                    [
+                        70,
+                        76,
+                        "CITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "from this fort, you get to see a beautiful view of the entire jaipur city and the sunset here is something else.\r",
+            {
+                "entities": [
+                    [
+                        62,
+                        73,
+                        "AREA"
+                    ]
+                ]
+            }
+        ],
+        [
+            "this is the nargarh fort, friends.\r",
+            {
+                "entities": [
+                    [
+                        12,
+                        24,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "situated on the edge of the aravalli hills, this fort is quite huge.\r",
+            {
+                "entities": [
+                    [
+                        28,
+                        42,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "the architecture of this fort is quite artistic.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "here you get to see many bastions, some walls of the fort and a stepwell.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "situated on this fort is a sheesh mahal, which is a [music] palace.\r",
+            {
+                "entities": [
+                    [
+                        27,
+                        39,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "this palace has been decorated from inside using magnesia glass pieces and this is the only palace in the whole world where you get to see a glass floor.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "videography is not allowed inside the sheesh mahal of nargarh fort and hence i could not shoot here and the entry fee is rs.\r",
+            {
+                "entities": [
+                    [
+                        38,
+                        50,
+                        "LANDMARK"
+                    ],
+                    [
+                        54,
+                        66,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "you should reach the kali buruj of the fort before sunset, which is a west facing buruj and from here you get to see a very beautiful [music] sunset.\r",
+            {
+                "entities": [
+                    [
+                        21,
+                        31,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "this beautiful view of jaipur city and the setting sun on the back side of the city.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "it will be one of the best sunsets of your life.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "you should reach the kali buruj a little before sunset because there is a lot of crowd here to see the sunset, so it becomes a little difficult to catch a perfect view point.\r",
+            {
+                "entities": [
+                    [
+                        21,
+                        31,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "the beauty of the ranger fort is not limited to just sunset, because now you can see a night view of jaipur city from the ranger fort.\r",
+            {
+                "entities": [
+                    [
+                        101,
+                        112,
+                        "CITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "this glittering city looks as if millions of stars have descended on earth.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "i have mentioned the perfect time slots to explore the ranger fort very well in my after-words, the link of which you will find in the description box.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "we were going down after exploring the ranger fort at 8:30 in the night, when we got to see jal mahal and this night view of jaipur city, so we thought why nana, let's take night drone shots of this city\r",
+            {
+                "entities": [
+                    [
+                        92,
+                        101,
+                        "LANDMARK"
+                    ],
+                    [
+                        125,
+                        136,
+                        "CITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "and then we flew the drone and we got to see this [music] the next morning when this pink city was shining in the orange hue of the sky, we set out to see a palace in jaipur which is the best monument of beauty and splendor.\r",
+            {
+                "entities": [
+                    [
+                        85,
+                        94,
+                        "AREA"
+                    ],
+                    [
+                        167,
+                        173,
+                        "CITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "every corner, every wall of this palace tells a story.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "this is the amir [music] fort.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "this fort, which is approximately 430 years old, also wins hearts with its amazing beauty.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "the detailed carvings, architecture and aesthetic landscape here seem to have been built just a few days ago.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "[music] the architecture here is influenced by rajput and mughal architecture.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "made of pink and yellow sandstone and marble, the walls of this fort present a spectacular view.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "so you can see the hooks here, large silk curtains used to be hung on the hooks and proper silk carpet here and just imagine how beautiful this place would have looked in the past.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "if it looks so beautiful now, how beautiful it will look in the future, you can also see a mirror on this photo.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "the palace is visible and the special thing about this sheesh mahal is that the carpet of whatever colour was laid here in those days, it was of the same colour.\r",
+            {
+                "entities": [
+                    [
+                        55,
+                        67,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "it used to be of the entire sheesh mahal, thinking of which so much was the reason that the lake that you get to see in front of the ticket is called mota lake, which was the main water source of the fort.\r",
+            {
+                "entities": [
+                    [
+                        28,
+                        40,
+                        "LANDMARK"
+                    ],
+                    [
+                        150,
+                        159,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "in the middle of the lake, on a small island, you also get to see a saffron garden, which is called kesar kari bagh.\r",
+            {
+                "entities": [
+                    [
+                        68,
+                        82,
+                        "LANDMARK"
+                    ],
+                    [
+                        100,
+                        115,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "due to the beauty of amar fort, many people call it amber palace.\r",
+            {
+                "entities": [
+                    [
+                        21,
+                        30,
+                        "LANDMARK"
+                    ],
+                    [
+                        52,
+                        64,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "along with the beauty, the security of this fort was also taken care of very well because it protected the fort from invaders.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "this approximately 12 kilometre long wall, which is called the great wall of amar, built on the banks of the aravali mountains, is the third longest wall in the world.\r",
+            {
+                "entities": [
+                    [
+                        109,
+                        126,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "you can see this wall clearly from the amer fort [music] while going to amar fort, on your left hand side, you get to see one of the most beautiful temples of jaipur, which is made of marbles and stones of different colours.\r",
+            {
+                "entities": [
+                    [
+                        39,
+                        48,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "[music] this is shri jagat shiromani ji temple, dedicated to meerabai, lord krishna and lord vishnu, is really very beautiful [music] friends, you can see the carvings of this temple, how beautiful the carvings are, it is a very big temple, friends, and it is very beautiful, and not many people come here because there is emer fort right next to it, so all the people go there, if you are coming in a private vehicle, like going to the fort in a private vehicle, then this temple seems to be on the side, like on the way, this temple seems to be there, but still not many people come here because not many people know about this temple, friends, but if you are coming here, then you must visit this temple, it is very beautiful, as beautiful as this temple is, the gate of this temple is also beautiful, on the gate you get to see some gods and goddesses, you can see this path that goes to the fort and you get to see this beautiful temple by the path, but not many people come here because you can see there is a very big wall here, due to which this temple is not visible, so here but not many people come here and you can see the whole back side is amir fort.\r",
+            {
+                "entities": [
+                    [
+                        16,
+                        46,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "for the construction of this temple, some stones have been brought from udaipur, some from kota and most of the marble is from jaipur.\r",
+            {
+                "entities": [
+                    [
+                        72,
+                        79,
+                        "CITY"
+                    ],
+                    [
+                        91,
+                        95,
+                        "CITY"
+                    ],
+                    [
+                        127,
+                        133,
+                        "CITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "you can see minute detail carvings on every wall and every corner of this temple.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "at a walking distance of just a few minutes from the jagat shiromani ji temple, you can see one of the most famous stepwells of jaipur.\r",
+            {
+                "entities": [
+                    [
+                        53,
+                        79,
+                        "LANDMARK"
+                    ],
+                    [
+                        115,
+                        124,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "more foreign visitors come to see this stepwell than indian visitors.\r",
+            {
+                "entities": [
+                    [
+                        39,
+                        47,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "the name of this stepwell is banna mina ka\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "[sangeet] kund.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "amar city which is a sub-city situated inside jaipur city, people there used to drink this shreep phal water once upon a time.\r",
+            {
+                "entities": [
+                    [
+                        0,
+                        9,
+                        "AREA"
+                    ],
+                    [
+                        46,
+                        57,
+                        "AREA"
+                    ]
+                ]
+            }
+        ],
+        [
+            "after exploring all these locations, we came to the main jaipur city to see its iconic monuments like hawa mahal, city palace, jantar mantar and albert museum hall.\r",
+            {
+                "entities": [
+                    [
+                        57,
+                        68,
+                        "AREA"
+                    ],
+                    [
+                        102,
+                        112,
+                        "LANDMARK"
+                    ],
+                    [
+                        114,
+                        125,
+                        "LANDMARK"
+                    ],
+                    [
+                        127,
+                        140,
+                        "LANDMARK"
+                    ],
+                    [
+                        152,
+                        163,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "all these locations are nearby.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "timings, entry tickets, composite tickets, best time to visit of all these locations.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "and you will get a lot of detailed information in my after story, the link of which you will find in the description box.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "friends, jaipur has beautiful lakes, forts, palaces, temples, mountains, but one thing is missing here and that is a desert.\r",
+            {
+                "entities": [
+                    [
+                        9,
+                        15,
+                        "CITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "but do not worry, guys, we have found a small desert here.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "friends, many people come to jaipur to do pre-wedding photoshoots.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "like, there are many beautiful locations in jaipur where you can do pre-wedding shoots, but one thing is missing in jaipur and that is the desert.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "here you do not get to see a proper desert, but we have found such a small location, friends, you can see which gives a proper desert feel.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "back side you also get to see the beautiful view of this fort.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "so if you want to do a pre-wedding shoot where you want a desert-like shot, then you can definitely come here.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "i do not know exactly the name of this location.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "how to reach the location, you will find it in the ternary and coming here is a bit difficult.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "friends, after facing a little challenge, you will reach here.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "you will have to reach there so keep this thing in mind and if you come in the evening then you get to see such a view of the whole of jaipur with a beautiful sunset and it is a very big place, such a great back side view of the fort, so definitely you can come here, friends you will find a little garbage below but as you climb up, you will see very clean sand and beautiful [music] views, everyone is short of time but the king here, sawai jai singh second, knew the importance of time long ago and that is why he built india's largest jantar [music] mantar, jantar mantar is a collection of astronomical instruments with the help of which you can do accurate calculations of space and time, here the word jantar is made from yantra, which means a machine and the word mantra is made from mantra, which means calculations, here you get to see 14 main instruments, the construction of this observatory was completed in 1734 when western countries were promoting things like slavery and blood letting, then such practices started in our india a scientific observatory was being built and this, friends, is the world's largest sundial, which is 73 feet tall and according to the sun, there is a big dial here, so according to the sun, you can find out the time with the accuracy of 1 second.\r",
+            {
+                "entities": [
+                    [
+                        135,
+                        141,
+                        "CITY"
+                    ],
+                    [
+                        562,
+                        575,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "and you will find many sundial in the world, friends, but this is the world's largest sundial made of stone, which is 73 feet tall.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "you can see how huge a structure it is.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "there are a total of five jantar mantars in india, which are located in varanasi, ujjain, new delhi, mathura and the biggest one is here in jaipur [sangeet], just 9 kilometers from jaipur city.\r",
+            {
+                "entities": [
+                    [
+                        26,
+                        40,
+                        "LANDMARK"
+                    ],
+                    [
+                        72,
+                        80,
+                        "CITY"
+                    ],
+                    [
+                        82,
+                        88,
+                        "CITY"
+                    ],
+                    [
+                        90,
+                        99,
+                        "CITY"
+                    ],
+                    [
+                        101,
+                        108,
+                        "CITY"
+                    ],
+                    [
+                        140,
+                        146,
+                        "CITY"
+                    ],
+                    [
+                        181,
+                        192,
+                        "AREA"
+                    ]
+                ]
+            }
+        ],
+        [
+            "jaipur's famous jal mahal is situated in the middle of man sagar lake.\r",
+            {
+                "entities": [
+                    [
+                        16,
+                        25,
+                        "LANDMARK"
+                    ],
+                    [
+                        55,
+                        69,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "this palace is made of red and pink sandstone and it looks very beautiful in the evening\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "[sangeet].\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "man sagar lake is an artificial lake, which has been built to collect rainwater from the mountains on the back side of the lake.\r",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "the construction of jal mahal is so unique that it seems that it is the palace is floating on water.\r",
+            {
+                "entities": [
+                    [
+                        20,
+                        29,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "you get to see many local birds and migratory birds in this lake.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "[music] friends, if you want to explore jaipur very well, then my article will help you a lot because there are so many locations in jaipur that your four-five days will end but the locations here will not end.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "plus, information about the best food stalls, best hotels, best bike rental service, car rental service, tour packages, best timing to visit all the locations here, ticket information, composite tickets, you will get all this information in i-territory, so do check i-territory once.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "next day, early in the morning, we set out to experience a very unique adventure activity.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "although we always see aerial views from our drone, but today we got the opportunity to see these beautiful aerial views with our own eyes.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "all thanks to sky vaults balloon safari, first ever hot air balloon company authorized by dgca in [music] india early in the morning, their cab came to pick us up from our hotel and as we reached the location, we got hot tea and coffee and we were ready to fly [music] as soon as the balloons were ready, our adventure began.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "slowly our balloon lifted and as we reached a little height, we started seeing these beautiful [music] the experience of flying in the cold air in the morning was really mind blowing you will find the complete booking details of sky world balloon safari in the description box india's largest salt water lake is situated here at a distance of just 75 kilometers from jaipur.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "the name of this lake is sambhar lake.\r",
+            {
+                "entities": [
+                    [
+                        25,
+                        37,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "this lake is so huge that you get a proper white desert feel here.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "this saline water lake produces approximately 2 lakh tons of clear salt every year and the process of making this salt has been going on for the last thousands of years\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "[music] to transport salt, you also get to see a narrow gauge toy train here, which is a railway line built by the britishers.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "you can see it towards sambhar town lots of different coloured salt pans [music] this is the salt processing unit here and it is called sambar salt.\r",
+            {
+                "entities": [
+                    [
+                        23,
+                        35,
+                        "AREA"
+                    ]
+                ]
+            }
+        ],
+        [
+            "here you can see how small sambar town looks just in front of this salt processing unit.\r",
+            {
+                "entities": [
+                    [
+                        27,
+                        38,
+                        "AREA"
+                    ]
+                ]
+            }
+        ],
+        [
+            "imagine how huge the entire sambar lake would be.\r",
+            {
+                "entities": [
+                    [
+                        28,
+                        39,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "many famous movies have been shot near sambar lake, like delhi six, veer gulaal highway, donkey and pk and songs like dj wale babu, run of kutch, you get to see a road like road to heaven here, but it is not allowed to take your personal vehicle here.\r",
+            {
+                "entities": [
+                    [
+                        39,
+                        50,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "you can go here by toy train.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "sambar lake is home to thousands of flamingos.\r",
+            {
+                "entities": [
+                    [
+                        0,
+                        11,
+                        "LANDMARK"
+                    ]
+                ]
+            }
+        ],
+        [
+            "in the evening, you can see many flamingos flying here [music].\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "if you are coming here especially to see the flamingos, then bring binoculars or a powerful zoom lens with you [music].\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "our sense zoom has taken some amazing shots here, which i will show you right now [music]\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "[praise] friends, sambar lake is very huge, so which are the safest locations you can visit here?\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "you can explore their complete information, i have mentioned it in my item list, so do check it out.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "well friends, i hope you liked this video.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "if you like this video, then please like this video and make a nice comment.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "if you are new to my channel, then subscribe before doing so.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "so with that being said, i will see you soon in the next one, till then take care, bye bye.\r",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "jai hind, jai bharat.\r",
+            {
+                "entities": []
+            }
+        ],
         [
             "are you also planning to visit jaipur, if yes then this video is for you only, in today's video i am going to tell you the top 12 places of jaipur and the timings to visit there and the entry charges too, so let's quickly start the video, the first place which you can visit in jaipur is naharlagun, which is at a distance of 10 km.\r",
             {
@@ -911,899 +1804,6 @@
         ],
         [
             "",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "india's largest salt water lake, the third longest wall in the world, royal palaces, beautiful temples, from the beauty of hawa mahal to the peace of jal mahal, you will get to see everything here.\r",
-            {
-                "entities": [
-                    [
-                        16,
-                        31,
-                        "LANDMARK"
-                    ],
-                    [
-                        150,
-                        159,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "this is jaipur, the pink city, where every wall tells a story [music] jaipur is known for its huge artistic fords and here you get to see many beautiful fords, but this fort is very special.\r",
-            {
-                "entities": [
-                    [
-                        8,
-                        14,
-                        "CITY"
-                    ],
-                    [
-                        20,
-                        29,
-                        "CITY"
-                    ],
-                    [
-                        70,
-                        76,
-                        "CITY"
-                    ]
-                ]
-            }
-        ],
-        [
-            "from this fort, you get to see a beautiful view of the entire jaipur city and the sunset here is something else.\r",
-            {
-                "entities": [
-                    [
-                        62,
-                        73,
-                        "AREA"
-                    ]
-                ]
-            }
-        ],
-        [
-            "this is the nargarh fort, friends.\r",
-            {
-                "entities": [
-                    [
-                        12,
-                        24,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "situated on the edge of the aravalli hills, this fort is quite huge.\r",
-            {
-                "entities": [
-                    [
-                        28,
-                        42,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "the architecture of this fort is quite artistic.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "here you get to see many bastions, some walls of the fort and a stepwell.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "situated on this fort is a sheesh mahal, which is a [music] palace.\r",
-            {
-                "entities": [
-                    [
-                        27,
-                        39,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "this palace has been decorated from inside using magnesia glass pieces and this is the only palace in the whole world where you get to see a glass floor.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "videography is not allowed inside the sheesh mahal of nargarh fort and hence i could not shoot here and the entry fee is rs.\r",
-            {
-                "entities": [
-                    [
-                        38,
-                        50,
-                        "LANDMARK"
-                    ],
-                    [
-                        54,
-                        66,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "you should reach the kali buruj of the fort before sunset, which is a west facing buruj and from here you get to see a very beautiful [music] sunset.\r",
-            {
-                "entities": [
-                    [
-                        21,
-                        31,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "this beautiful view of jaipur city and the setting sun on the back side of the city.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "it will be one of the best sunsets of your life.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "you should reach the kali buruj a little before sunset because there is a lot of crowd here to see the sunset, so it becomes a little difficult to catch a perfect view point.\r",
-            {
-                "entities": [
-                    [
-                        21,
-                        31,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "the beauty of the ranger fort is not limited to just sunset, because now you can see a night view of jaipur city from the ranger fort.\r",
-            {
-                "entities": [
-                    [
-                        101,
-                        112,
-                        "CITY"
-                    ]
-                ]
-            }
-        ],
-        [
-            "this glittering city looks as if millions of stars have descended on earth.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "i have mentioned the perfect time slots to explore the ranger fort very well in my after-words, the link of which you will find in the description box.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "we were going down after exploring the ranger fort at 8:30 in the night, when we got to see jal mahal and this night view of jaipur city, so we thought why nana, let's take night drone shots of this city\r",
-            {
-                "entities": [
-                    [
-                        92,
-                        101,
-                        "LANDMARK"
-                    ],
-                    [
-                        125,
-                        136,
-                        "CITY"
-                    ]
-                ]
-            }
-        ],
-        [
-            "and then we flew the drone and we got to see this [music] the next morning when this pink city was shining in the orange hue of the sky, we set out to see a palace in jaipur which is the best monument of beauty and splendor.\r",
-            {
-                "entities": [
-                    [
-                        85,
-                        94,
-                        "AREA"
-                    ],
-                    [
-                        167,
-                        173,
-                        "CITY"
-                    ]
-                ]
-            }
-        ],
-        [
-            "every corner, every wall of this palace tells a story.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "this is the amir [music] fort.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "this fort, which is approximately 430 years old, also wins hearts with its amazing beauty.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "the detailed carvings, architecture and aesthetic landscape here seem to have been built just a few days ago.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "[music] the architecture here is influenced by rajput and mughal architecture.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "made of pink and yellow sandstone and marble, the walls of this fort present a spectacular view.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "so you can see the hooks here, large silk curtains used to be hung on the hooks and proper silk carpet here and just imagine how beautiful this place would have looked in the past.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "if it looks so beautiful now, how beautiful it will look in the future, you can also see a mirror on this photo.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "the palace is visible and the special thing about this sheesh mahal is that the carpet of whatever colour was laid here in those days, it was of the same colour.\r",
-            {
-                "entities": [
-                    [
-                        55,
-                        67,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "it used to be of the entire sheesh mahal, thinking of which so much was the reason that the lake that you get to see in front of the ticket is called mota lake, which was the main water source of the fort.\r",
-            {
-                "entities": [
-                    [
-                        28,
-                        40,
-                        "LANDMARK"
-                    ],
-                    [
-                        150,
-                        159,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "in the middle of the lake, on a small island, you also get to see a saffron garden, which is called kesar kari bagh.\r",
-            {
-                "entities": [
-                    [
-                        68,
-                        82,
-                        "LANDMARK"
-                    ],
-                    [
-                        100,
-                        115,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "due to the beauty of amar fort, many people call it amber palace.\r",
-            {
-                "entities": [
-                    [
-                        21,
-                        30,
-                        "LANDMARK"
-                    ],
-                    [
-                        52,
-                        64,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "along with the beauty, the security of this fort was also taken care of very well because it protected the fort from invaders.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "this approximately 12 kilometre long wall, which is called the great wall of amar, built on the banks of the aravali mountains, is the third longest wall in the world.\r",
-            {
-                "entities": [
-                    [
-                        109,
-                        126,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "you can see this wall clearly from the amer fort [music] while going to amar fort, on your left hand side, you get to see one of the most beautiful temples of jaipur, which is made of marbles and stones of different colours.\r",
-            {
-                "entities": [
-                    [
-                        39,
-                        48,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "[music] this is shri jagat shiromani ji temple, dedicated to meerabai, lord krishna and lord vishnu, is really very beautiful [music] friends, you can see the carvings of this temple, how beautiful the carvings are, it is a very big temple, friends, and it is very beautiful, and not many people come here because there is emer fort right next to it, so all the people go there, if you are coming in a private vehicle, like going to the fort in a private vehicle, then this temple seems to be on the side, like on the way, this temple seems to be there, but still not many people come here because not many people know about this temple, friends, but if you are coming here, then you must visit this temple, it is very beautiful, as beautiful as this temple is, the gate of this temple is also beautiful, on the gate you get to see some gods and goddesses, you can see this path that goes to the fort and you get to see this beautiful temple by the path, but not many people come here because you can see there is a very big wall here, due to which this temple is not visible, so here but not many people come here and you can see the whole back side is amir fort.\r",
-            {
-                "entities": [
-                    [
-                        16,
-                        46,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "for the construction of this temple, some stones have been brought from udaipur, some from kota and most of the marble is from jaipur.\r",
-            {
-                "entities": [
-                    [
-                        72,
-                        79,
-                        "CITY"
-                    ],
-                    [
-                        91,
-                        95,
-                        "CITY"
-                    ],
-                    [
-                        127,
-                        133,
-                        "CITY"
-                    ]
-                ]
-            }
-        ],
-        [
-            "you can see minute detail carvings on every wall and every corner of this temple.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "at a walking distance of just a few minutes from the jagat shiromani ji temple, you can see one of the most famous stepwells of jaipur.\r",
-            {
-                "entities": [
-                    [
-                        53,
-                        79,
-                        "LANDMARK"
-                    ],
-                    [
-                        115,
-                        124,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "more foreign visitors come to see this stepwell than indian visitors.\r",
-            {
-                "entities": [
-                    [
-                        39,
-                        47,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "the name of this stepwell is banna mina ka\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "[sangeet] kund.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "amar city which is a sub-city situated inside jaipur city, people there used to drink this shreep phal water once upon a time.\r",
-            {
-                "entities": [
-                    [
-                        0,
-                        9,
-                        "AREA"
-                    ],
-                    [
-                        46,
-                        57,
-                        "AREA"
-                    ]
-                ]
-            }
-        ],
-        [
-            "after exploring all these locations, we came to the main jaipur city to see its iconic monuments like hawa mahal, city palace, jantar mantar and albert museum hall.\r",
-            {
-                "entities": [
-                    [
-                        57,
-                        68,
-                        "AREA"
-                    ],
-                    [
-                        102,
-                        112,
-                        "LANDMARK"
-                    ],
-                    [
-                        114,
-                        125,
-                        "LANDMARK"
-                    ],
-                    [
-                        127,
-                        140,
-                        "LANDMARK"
-                    ],
-                    [
-                        152,
-                        163,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "all these locations are nearby.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "timings, entry tickets, composite tickets, best time to visit of all these locations.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "and you will get a lot of detailed information in my after story, the link of which you will find in the description box.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "friends, jaipur has beautiful lakes, forts, palaces, temples, mountains, but one thing is missing here and that is a desert.\r",
-            {
-                "entities": [
-                    [
-                        9,
-                        15,
-                        "CITY"
-                    ]
-                ]
-            }
-        ],
-        [
-            "but do not worry, guys, we have found a small desert here.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "friends, many people come to jaipur to do pre-wedding photoshoots.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "like, there are many beautiful locations in jaipur where you can do pre-wedding shoots, but one thing is missing in jaipur and that is the desert.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "here you do not get to see a proper desert, but we have found such a small location, friends, you can see which gives a proper desert feel.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "back side you also get to see the beautiful view of this fort.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "so if you want to do a pre-wedding shoot where you want a desert-like shot, then you can definitely come here.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "i do not know exactly the name of this location.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "how to reach the location, you will find it in the ternary and coming here is a bit difficult.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "friends, after facing a little challenge, you will reach here.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "you will have to reach there so keep this thing in mind and if you come in the evening then you get to see such a view of the whole of jaipur with a beautiful sunset and it is a very big place, such a great back side view of the fort, so definitely you can come here, friends you will find a little garbage below but as you climb up, you will see very clean sand and beautiful [music] views, everyone is short of time but the king here, sawai jai singh second, knew the importance of time long ago and that is why he built india's largest jantar [music] mantar, jantar mantar is a collection of astronomical instruments with the help of which you can do accurate calculations of space and time, here the word jantar is made from yantra, which means a machine and the word mantra is made from mantra, which means calculations, here you get to see 14 main instruments, the construction of this observatory was completed in 1734 when western countries were promoting things like slavery and blood letting, then such practices started in our india a scientific observatory was being built and this, friends, is the world's largest sundial, which is 73 feet tall and according to the sun, there is a big dial here, so according to the sun, you can find out the time with the accuracy of 1 second.\r",
-            {
-                "entities": [
-                    [
-                        135,
-                        141,
-                        "CITY"
-                    ],
-                    [
-                        562,
-                        575,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "and you will find many sundial in the world, friends, but this is the world's largest sundial made of stone, which is 73 feet tall.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "you can see how huge a structure it is.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "there are a total of five jantar mantars in india, which are located in varanasi, ujjain, new delhi, mathura and the biggest one is here in jaipur [sangeet], just 9 kilometers from jaipur city.\r",
-            {
-                "entities": [
-                    [
-                        26,
-                        40,
-                        "LANDMARK"
-                    ],
-                    [
-                        72,
-                        80,
-                        "CITY"
-                    ],
-                    [
-                        82,
-                        88,
-                        "CITY"
-                    ],
-                    [
-                        90,
-                        99,
-                        "CITY"
-                    ],
-                    [
-                        101,
-                        108,
-                        "CITY"
-                    ],
-                    [
-                        140,
-                        146,
-                        "CITY"
-                    ],
-                    [
-                        181,
-                        192,
-                        "AREA"
-                    ]
-                ]
-            }
-        ],
-        [
-            "jaipur's famous jal mahal is situated in the middle of man sagar lake.\r",
-            {
-                "entities": [
-                    [
-                        16,
-                        25,
-                        "LANDMARK"
-                    ],
-                    [
-                        55,
-                        69,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "this palace is made of red and pink sandstone and it looks very beautiful in the evening\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "[sangeet].\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "man sagar lake is an artificial lake, which has been built to collect rainwater from the mountains on the back side of the lake.\r",
-            {
-                "entities": [
-                    [
-                        0,
-                        14,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "the construction of jal mahal is so unique that it seems that it is the palace is floating on water.\r",
-            {
-                "entities": [
-                    [
-                        20,
-                        29,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "you get to see many local birds and migratory birds in this lake.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "[music] friends, if you want to explore jaipur very well, then my article will help you a lot because there are so many locations in jaipur that your four-five days will end but the locations here will not end.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "plus, information about the best food stalls, best hotels, best bike rental service, car rental service, tour packages, best timing to visit all the locations here, ticket information, composite tickets, you will get all this information in i-territory, so do check i-territory once.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "next day, early in the morning, we set out to experience a very unique adventure activity.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "although we always see aerial views from our drone, but today we got the opportunity to see these beautiful aerial views with our own eyes.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "all thanks to sky vaults balloon safari, first ever hot air balloon company authorized by dgca in [music] india early in the morning, their cab came to pick us up from our hotel and as we reached the location, we got hot tea and coffee and we were ready to fly [music] as soon as the balloons were ready, our adventure began.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "slowly our balloon lifted and as we reached a little height, we started seeing these beautiful [music] the experience of flying in the cold air in the morning was really mind blowing you will find the complete booking details of sky world balloon safari in the description box india's largest salt water lake is situated here at a distance of just 75 kilometers from jaipur.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "the name of this lake is sambhar lake.\r",
-            {
-                "entities": [
-                    [
-                        25,
-                        37,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "this lake is so huge that you get a proper white desert feel here.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "this saline water lake produces approximately 2 lakh tons of clear salt every year and the process of making this salt has been going on for the last thousands of years\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "[music] to transport salt, you also get to see a narrow gauge toy train here, which is a railway line built by the britishers.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "you can see it towards sambhar town lots of different coloured salt pans [music] this is the salt processing unit here and it is called sambar salt.\r",
-            {
-                "entities": [
-                    [
-                        23,
-                        35,
-                        "AREA"
-                    ]
-                ]
-            }
-        ],
-        [
-            "here you can see how small sambar town looks just in front of this salt processing unit.\r",
-            {
-                "entities": [
-                    [
-                        27,
-                        38,
-                        "AREA"
-                    ]
-                ]
-            }
-        ],
-        [
-            "imagine how huge the entire sambar lake would be.\r",
-            {
-                "entities": [
-                    [
-                        28,
-                        39,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "many famous movies have been shot near sambar lake, like delhi six, veer gulaal highway, donkey and pk and songs like dj wale babu, run of kutch, you get to see a road like road to heaven here, but it is not allowed to take your personal vehicle here.\r",
-            {
-                "entities": [
-                    [
-                        39,
-                        50,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "you can go here by toy train.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "sambar lake is home to thousands of flamingos.\r",
-            {
-                "entities": [
-                    [
-                        0,
-                        11,
-                        "LANDMARK"
-                    ]
-                ]
-            }
-        ],
-        [
-            "in the evening, you can see many flamingos flying here [music].\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "if you are coming here especially to see the flamingos, then bring binoculars or a powerful zoom lens with you [music].\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "our sense zoom has taken some amazing shots here, which i will show you right now [music]\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "[praise] friends, sambar lake is very huge, so which are the safest locations you can visit here?\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "you can explore their complete information, i have mentioned it in my item list, so do check it out.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "well friends, i hope you liked this video.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "if you like this video, then please like this video and make a nice comment.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "if you are new to my channel, then subscribe before doing so.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "so with that being said, i will see you soon in the next one, till then take care, bye bye.\r",
-            {
-                "entities": []
-            }
-        ],
-        [
-            "jai hind, jai bharat.\r",
             {
                 "entities": []
             }
