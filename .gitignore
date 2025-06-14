@@ -1,3 +1,5 @@
 models
 model-last
 model-best
+model-last/tok2vec/model
+model-last/vocab/vectors
