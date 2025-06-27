@@ -15,12 +15,22 @@ from googletrans import Translator
 
 # List of YouTube video IDs to process
 list_video_id = [
-    'rm_j6O8y148',
-    'Lv0PkSkKeSo',
-    '5zA6OFpkPe0',
-    'Oz18u64bM8I',
-    'p0MvovsCxCk',
-    '7cPLbiblb84'
+    # 'p0MvovsCxCk',
+    # '7cPLbiblb84',
+    # 'rm_j6O8y148',
+    # 'Lv0PkSkKeSo',
+    # '5zA6OFpkPe0',
+    # 'Oz18u64bM8I',
+    # 'p0MvovsCxCk',
+    # '7cPLbiblb84',
+    # 'Wt1LgJyF3s',
+    'fP2zols1dag',
+    'D1blpY-3ROE',
+    'snwAYESRUEw',
+    '48TcOu9kPqg',
+    'dcRh1zTPnDQ',
+    'lmhzpFfuWKc',
+    '45qqtIpQP5M',
 ]
 
 translator = Translator()
@@ -58,6 +68,7 @@ async def fetch_transcript(video_id):
                 try:
                     ts = tr.fetch()
                     raw_text = " ".join([entry.text for entry in ts])
+                    print(f'Translation started for {video_id}')
                     transcript_text = sync_translate([entry.text for entry in ts], src=tr.language_code, dest='en')
                     break
                 except Exception as e:
@@ -89,6 +100,7 @@ async def fetch_transcript(video_id):
 
 async def fetch_all_transcripts():
     for video_id in list_video_id:
+        print(f'starting {video_id}  processing' )
         await fetch_transcript(video_id)
 
 async def main():
