@@ -96,7 +96,7 @@ def cleaning_sentence(text):
     ans = " ".join(ans.split())
     return ans
 
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_lg")
 def process_text(text):
     """
     Removes stop words and lemmatizes the input text.

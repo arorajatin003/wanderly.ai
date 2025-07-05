@@ -14,24 +14,24 @@ import contractions
 from googletrans import Translator
 
 # List of YouTube video IDs to process
-list_video_id = [
-    # 'p0MvovsCxCk',
-    # '7cPLbiblb84',
-    # 'rm_j6O8y148',
-    # 'Lv0PkSkKeSo',
-    # '5zA6OFpkPe0',
-    # 'Oz18u64bM8I',
-    # 'p0MvovsCxCk',
-    # '7cPLbiblb84',
-    # 'Wt1LgJyF3s',
-    'fP2zols1dag',
-    'D1blpY-3ROE',
-    'snwAYESRUEw',
-    '48TcOu9kPqg',
-    'dcRh1zTPnDQ',
-    'lmhzpFfuWKc',
-    '45qqtIpQP5M',
-]
+# list_video_id = [
+#     # 'p0MvovsCxCk',
+#     # '7cPLbiblb84',
+#     # 'rm_j6O8y148',
+#     # 'Lv0PkSkKeSo',
+#     # '5zA6OFpkPe0',
+#     # 'Oz18u64bM8I',
+#     # 'p0MvovsCxCk',
+#     # '7cPLbiblb84',
+#     # 'Wt1LgJyF3s',
+#     'fP2zols1dag',
+#     'D1blpY-3ROE',
+#     'snwAYESRUEw',
+#     '48TcOu9kPqg',
+#     'dcRh1zTPnDQ',
+#     'lmhzpFfuWKc',
+#     '45qqtIpQP5M',
+# ]
 
 translator = Translator()
 nlp = spacy.load("en_core_web_lg")
@@ -98,15 +98,15 @@ async def fetch_transcript(video_id):
     finally:
         print(f"Finished processing {video_id}")
 
-async def fetch_all_transcripts():
+async def fetch_all_transcripts(list_video_id):
     for video_id in list_video_id:
         print(f'starting {video_id}  processing' )
         await fetch_transcript(video_id)
 
-async def main():
+async def download_transcript(video_ids_list):
     print("Starting transcript fetcher...")
-    await fetch_all_transcripts()
+    await fetch_all_transcripts(video_ids_list)
     print("All transcripts processed.")
 
-if __name__ == "__main__":
-    asyncio.run(main())
+# if __name__ == "__main__":
+#     asyncio.run(main())
