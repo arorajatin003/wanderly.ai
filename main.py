@@ -18,21 +18,36 @@ import sys
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import MinMaxScaler
 from fastapi.responses import JSONResponse
+from typing import List
 
 
 app = FastAPI()
 
 
-def get_recommendations():
-    user_input = ['I like to trave to find me, enjoy, capture the movement',
-    'Like to explore the culture, heritage and local food',
-    'relax chill with friends',
-    'peacefull place calm and relaxing',
-    'chill good local food instagram worthy locations, vloging',
-    'Explorer – I love wandering and getting lost',
-    'Explore the surroundings on foot',
-    'Dream travel worule be lost in the movement, relax, local food, chill vibes, haritage, mountain person but \
-    also like beaches and water side resorts']
+def get_recommendations(user_input=None):
+
+    # user_input = ['I like to trave to find me, enjoy, capture the movement',
+    # 'Like to explore the culture, heritage and local food',
+    # 'relax chill with friends',
+    # 'peacefull place calm and relaxing',
+    # 'chill good local food instagram worthy locations, vloging',
+    # 'Explorer – I love wandering and getting lost',
+    # 'Explore the surroundings on foot',
+    # 'Dream travel worule be lost in the movement, relax, local food, chill vibes, haritage, mountain person but \
+    # also like beaches and water side resorts']
+    '''
+    [
+        "Exploring the unknown, meeting new people, and immersing myself in different cultures. It’s the thrill of discovery and stepping out of the routine that energizes me.",
+        "Travel is the only thing you buy that makes you richer. It reminds me that experiences and memories are far more valuable than things",
+        "I'd escape to a quiet hillside town, unplug from screens, explore local trails, and spend my evenings with books, hot chai, and stunning views.",
+        "I’m drawn to places that offer natural beauty and local charm—mountains, lakes, and small cultural towns are my go-to.",
+        "Authentic, offbeat experiences. I love walking tours, trying local cuisine, talking to locals, and finding hidden gems not on the tourist map.",
+        "Mostly stories about interesting people I met, local food I tried, and photos of scenic spots and quirky finds.",
+        "A mix of planner and wanderer. I set a rough outline but love going with the flow once I arrive.",
+        "Drop my bags, freshen up, and head out for a walk to get a feel of the local vibe and grab a quick local bite.",
+        "I wake up early in a cozy mountain homestay, sip tea with a view, then head out for a hike through quiet trails. The day ends with a warm meal, a good conversation with locals, and stargazing under a clear night sky."
+    ]
+    '''
 
     user_input = ' '.join(user_input)
     print(user_input)
@@ -72,19 +87,21 @@ def get_recommendations():
     return user_transform
 
     
+root = os.getcwd()
+model_path = os.path.join(root, 'models')
 
-with open('D:/randomProjects/wanderly.ai/models/tvid_loc.pkl', 'rb') as file:
+with open(f'{model_path}/tvid_loc.pkl', 'rb') as file:
     tvid_loc = pickle.load(file)
 
-with open('D:/randomProjects/wanderly.ai/models/tvid_food.pkl', 'rb') as file:
+with open(f'{model_path}/tvid_food.pkl', 'rb') as file:
     tvid_food = pickle.load(file)
-with open('D:/randomProjects/wanderly.ai/models/tvid_keyWords.pkl', 'rb') as file:
+with open(f'{model_path}/tvid_keyWords.pkl', 'rb') as file:
     tvid_keyWords = pickle.load(file)
 
-with open('D:/randomProjects/wanderly.ai/models/nmf_model_loc.pkl', 'rb') as file:
+with open(f'{model_path}/nmf_model_loc.pkl', 'rb') as file:
     nmf_model_loc = pickle.load(file)
 
-with open('D:/randomProjects/wanderly.ai/models/nmf_model_food.pkl', 'rb') as file:
+with open(f'{model_path}/nmf_model_food.pkl', 'rb') as file:
     nmf_model_food = pickle.load(file)
 
 def cleaning_sentence(text):
@@ -135,7 +152,7 @@ def get_similar_objects(check,X,Y,top_n=5):
     Y['similarity'] = similarity_scores
 
     # Sort top recommendations
-    top_recommendations = Y.sort_values(by='similarity', ascending=False).head(10)
+    top_recommendations = Y.sort_values(by='similarity', ascending=False).head(top_n)
     return top_recommendations
 
 
@@ -145,23 +162,29 @@ def read_root():
     return {"Hello": "World"}
 
 
-@app.get("/get_recommendations")
-def read_item(recommendation_type: Union[str, None] = None):
-    df_base_info = pd.read_csv('D:/randomProjects/wanderly.ai/data/Parquet/final_loc_food_df.csv')
+@app.post("/get_recommendations")
+def get_top_n_recommendations(recommendation_type: Union[str, None] = None, user_input:  Union[List[str],None] = None, recommendation_count: int = 10):
+    data = os.path.join(root, 'data','Parquet','final_loc_food_df.csv')
+    df_base_info = pd.read_csv(data)
+
     if(recommendation_type is not None):
         df_base_info = df_base_info[df_base_info['ENT_max']==recommendation_type]
+    
     req_col = [i for i in df_base_info.columns if i not in ['lemma_word', 'word', 'suggested_by', 
                                                         'video_id','key_word_extracted','details', 
                                                         'clean_test', 'rating', 'ENT_max','normalize_rating']]
     X = df_base_info[req_col]
     Y = df_base_info[['lemma_word']]
+    if user_input is not None:
+        top_n_recommendations = get_similar_objects(get_recommendations(user_input),X,Y,recommendation_count)
+    else:    
+        top_n_recommendations = get_similar_objects(get_recommendations(),X,Y,recommendation_count)
 
-    top_n_recommendations = get_similar_objects(get_recommendations(),X,Y,10)
     top_n_recommendations = df_base_info.merge(top_n_recommendations,on=['lemma_word'],how='inner')[['word','suggested_by','video_id','normalize_rating','ENT_max']]
     top_n_recommendations.rename(columns={'word':'name','normalize_rating':'rating','ENT_max':'type'},inplace=True)
     print(top_n_recommendations.to_dict(orient="records"))
     return JSONResponse(content=top_n_recommendations.to_dict(orient="records"), status_code=200)
 
-@app.get("/x/{type}")
-def read_item(item_id: int, q: Union[str, None] = None):
-    return {"item_id": item_id, "q": q}
+# @app.get("/x/{type}")
+# def get(item_id: int, q: Union[str, None] = None):
+#     return {"item_id": item_id, "q": q}
