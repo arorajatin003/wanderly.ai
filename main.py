@@ -90,19 +90,43 @@ def get_recommendations(user_input=None):
 root = os.getcwd()
 model_path = os.path.join(root, 'models')
 
-with open(f'{model_path}/tvid_loc.pkl', 'rb') as file:
-    tvid_loc = pickle.load(file)
+from functools import lru_cache
+import os
 
-with open(f'{model_path}/tvid_food.pkl', 'rb') as file:
-    tvid_food = pickle.load(file)
-with open(f'{model_path}/tvid_keyWords.pkl', 'rb') as file:
-    tvid_keyWords = pickle.load(file)
+root = os.getcwd()
+model_path = os.path.join(root, 'models')
 
-with open(f'{model_path}/nmf_model_loc.pkl', 'rb') as file:
-    nmf_model_loc = pickle.load(file)
+@lru_cache()
+def load_model(path):
+    import pickle
+    with open(path, 'rb') as file:
+        return pickle.load(file)
 
-with open(f'{model_path}/nmf_model_food.pkl', 'rb') as file:
-    nmf_model_food = pickle.load(file)
+@lru_cache()
+def get_spacy_model():
+    import spacy
+    return spacy.load("en_core_web_lg")
+
+tvid_loc = load_model(f'{model_path}/tvid_loc.pkl')
+tvid_food = load_model(f'{model_path}/tvid_food.pkl')
+tvid_keyWords = load_model(f'{model_path}/tvid_keyWords.pkl')
+nmf_model_loc = load_model(f'{model_path}/nmf_model_loc.pkl')
+nmf_model_food = load_model(f'{model_path}/nmf_model_food.pkl')
+nlp = get_spacy_model()
+
+# with open(f'{model_path}/tvid_loc.pkl', 'rb') as file:
+#     tvid_loc = pickle.load(file)
+
+# with open(f'{model_path}/tvid_food.pkl', 'rb') as file:
+#     tvid_food = pickle.load(file)
+# with open(f'{model_path}/tvid_keyWords.pkl', 'rb') as file:
+#     tvid_keyWords = pickle.load(file)
+
+# with open(f'{model_path}/nmf_model_loc.pkl', 'rb') as file:
+#     nmf_model_loc = pickle.load(file)
+
+# with open(f'{model_path}/nmf_model_food.pkl', 'rb') as file:
+#     nmf_model_food = pickle.load(file)
 
 def cleaning_sentence(text):
     text = text.lower()
@@ -113,7 +137,7 @@ def cleaning_sentence(text):
     ans = " ".join(ans.split())
     return ans
 
-nlp = spacy.load("en_core_web_lg")
+# nlp = spacy.load("en_core_web_lg")
 def process_text(text):
     """
     Removes stop words and lemmatizes the input text.
@@ -125,24 +149,28 @@ def process_text(text):
         str: The processed text with stop words removed and lemmatized.
     """
     
+    # doc = nlp(text)
+    # filtered_and_lemmatized_tokens = [token.lemma_ for token in doc if not token.is_stop and len(token.text)>2]
+    # index = 1
+    # while index<len(filtered_and_lemmatized_tokens):
+    #     if filtered_and_lemmatized_tokens[index] == filtered_and_lemmatized_tokens[index-1]:
+    #         del filtered_and_lemmatized_tokens[index-1]
+    #     else:
+    #         index = index+1
+
+    # return " ".join(filtered_and_lemmatized_tokens).replace('\n','')
+    nlp = get_spacy_model()
     doc = nlp(text)
-    filtered_and_lemmatized_tokens = [token.lemma_ for token in doc if not token.is_stop and len(token.text)>2]
-    index = 1
-    while index<len(filtered_and_lemmatized_tokens):
-        if filtered_and_lemmatized_tokens[index] == filtered_and_lemmatized_tokens[index-1]:
-            del filtered_and_lemmatized_tokens[index-1]
-        else:
-            index = index+1
-
-    return " ".join(filtered_and_lemmatized_tokens).replace('\n','')
-
+    tokens = [token.lemma_ for token in doc if not token.is_stop and len(token.text) > 2]
+    deduped = [tokens[i] for i in range(len(tokens)) if i == 0 or tokens[i] != tokens[i-1]]
+    return " ".join(deduped).replace('\n', '')
 
 
 def get_similar_objects(check,X,Y,top_n=5):
     common = [i for i in X.columns if i in check.columns]
 
     scaler = MinMaxScaler()
-    X_scaled = scaler.fit_transform(X[common])
+    # X_scaled = scaler.fit_transform(X[common])
     user_scaled = scaler.transform(check[common])
     
     # Compute cosine similarity between user vector and all item vectors
