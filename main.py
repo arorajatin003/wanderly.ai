@@ -49,6 +49,12 @@ def get_recommendations(user_input=None):
     ]
     '''
 
+    tvid_loc = load_model(f'{model_path}/tvid_loc.pkl')
+    tvid_food = load_model(f'{model_path}/tvid_food.pkl')
+    tvid_keyWords = load_model(f'{model_path}/tvid_keyWords.pkl')
+    nmf_model_loc = load_model(f'{model_path}/nmf_model_loc.pkl')
+    nmf_model_food = load_model(f'{model_path}/nmf_model_food.pkl')
+
     user_input = ' '.join(user_input)
     print(user_input)
 
@@ -107,12 +113,7 @@ def get_spacy_model():
     import spacy
     return spacy.load("en_core_web_lg")
 
-tvid_loc = load_model(f'{model_path}/tvid_loc.pkl')
-tvid_food = load_model(f'{model_path}/tvid_food.pkl')
-tvid_keyWords = load_model(f'{model_path}/tvid_keyWords.pkl')
-nmf_model_loc = load_model(f'{model_path}/nmf_model_loc.pkl')
-nmf_model_food = load_model(f'{model_path}/nmf_model_food.pkl')
-nlp = get_spacy_model()
+
 
 # with open(f'{model_path}/tvid_loc.pkl', 'rb') as file:
 #     tvid_loc = pickle.load(file)
